@@ -14,15 +14,15 @@
         
         <section id="form">
             <label for="changeLEP">LEP</label>
-            <input type="number" id="changeLEP">
+            <input type="number" id="changeLEP" v-model="money[0].amount /">
             <label for="changeCEL">CEL</label>
-            <input type="number" id="changeCEL">
+            <input type="number" id="changeCEL" v-model="money[1].amount /">
             <label for="changeLEB">LEB</label>
-            <input type="number" id="changeLEB">
+            <input type="number" id="changeLEB" v-model="money[2].amount /">
             <label for="changeAsv">asv</label>
-            <input type="number" id="changeAsv">
+            <input type="number" id="changeAsv" v-model="money[3].amount /">
             <label for="changeDebt">debt</label>
-            <input type="number" id="changeDebt" >
+            <input type="number" id="changeDebt" v-model="money[4].amount /">
             <label for="click"></label>
             <button type="number" id="click" @click="showMoney">click</button> 
         </section>
